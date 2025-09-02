@@ -1,56 +1,50 @@
-\# 📝 Project Overview
-
+# 📝 Project Overview
 
 
 This Power BI dashboard provides insights into sales performance, customer segmentation, and shipping analytics. Utilizing the Sample Sales Data from Kaggle, the dashboard offers visualizations that help in understanding sales trends, customer behaviors, and operational efficiencies.
 
 
-
-\## 📥 Data Source
-
-
-
-The dataset is sourced from \[Kaggle's Sample Sales Data](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data), which includes:
+## 📥 Data Source
 
 
 
-* Order Information: Order ID, Order Date, Ship Date, etc.
+The dataset is sourced from [Kaggle's Sample Sales Data](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data), which includes:
 
 
 
-* Sales Metrics: Sales Amount, Quantity, Profit, etc.
+- Order Information: Order ID, Order Date, Ship Date, etc.
+
+
+- Sales Metrics: Sales Amount, Quantity, Profit, etc.
+
+
+- Customer Details: Customer Name, Segment, Region, etc.
 
 
 
-* Customer Details: Customer Name, Segment, Region, etc.
+- Shipping Information: Ship Mode, Ship Date, etc.
 
 
 
-* Shipping Information: Ship Mode, Ship Date, etc.
+## 🔧 Technologies Used
 
 
 
-\## 🔧 Technologies Used
+- Power BI Desktop: For building the dashboard and reports.
+
+
+- Kaggle Dataset: For raw data.
+
+
+- DAX: For data modeling and calculations.
 
 
 
-* Power BI Desktop: For building the dashboard and reports.
+- Power Query: For data transformation and cleaning.
 
 
 
-* Kaggle Dataset: For raw data.
-
-
-
-* DAX: For data modeling and calculations.
-
-
-
-* Power Query: For data transformation and cleaning.
-
-
-
-\## 🚀 Getting Started
+## 🚀 Getting Started
 
 
 
@@ -58,19 +52,19 @@ The dataset is sourced from \[Kaggle's Sample Sales Data](https://www.kaggle.com
 
 
 
-git clone https://github.com/yourusername/powerbi-sales-dashboard.git
+  git clone https://github.com/yourusername/powerbi-sales-dashboard.git
 
 
 
-2\. Open the .pbix file in Power BI Desktop.
+2. Open the .pbix file in Power BI Desktop.
 
 
 
-3\. Refresh the data to load the latest dataset.
+3. Refresh the data to load the latest dataset.
 
 
 
-4\. Explore the dashboard and interact with the visualizations.
+4. Explore the dashboard and interact with the visualizations.
 
 
 
