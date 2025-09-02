@@ -1,0 +1,14 @@
+## Sales Overview Dashboard ##
+Total Sales = SUM(Orders[SALES])
+Total Orders = DISTINCTCOUNT(Orders[ORDERNUMBER])
+Average Order Value = DIVIDE([Total Sales], [Total Orders])
+Total Customers = DISTINCTCOUNT(Orders[CUSTOMERNAME])
+Month Year = FORMAT(Orders[ORDERDATE], "MMM yyyy")
+Year = YEAR(Orders[ORDERDATE])
+
+## Product Performance Dashboard ##
+Product Sales = SUM(Orders[SALES])
+Product Quantity = SUM(Orders[QUANTITYORDERED])
+Avg MSRP = AVERAGE(Orders[MSRP])
+Top Product Rank = RANKX(ALL(Orders[PRODUCTCODE]), [Product Sales], , DESC)
+Quarter = "Q" & FORMAT(Orders[ORDERDATE], "Q")
