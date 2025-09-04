@@ -50,10 +50,9 @@ The dataset is sourced from [Kaggle's Sample Sales Data](https://www.kaggle.com/
 
 1. Clone this repository:
 
-
-
-  git clone https://github.com/yourusername/powerbi-sales-dashboard.git
-
+```bash
+ git clone https://github.com/yourusername/powerbi-sales-dashboard.git
+```
 
 
 2. Open the .pbix file in Power BI Desktop.
