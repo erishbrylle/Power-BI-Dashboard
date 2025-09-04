@@ -12,3 +12,11 @@ Product Quantity = SUM(Orders[QUANTITYORDERED])
 Avg MSRP = AVERAGE(Orders[MSRP])
 Top Product Rank = RANKX(ALL(Orders[PRODUCTCODE]), [Product Sales], , DESC)
 Quarter = "Q" & FORMAT(Orders[ORDERDATE], "Q")
+
+## Customer Insights Dashboard ##
+Customer Sales = SUM(Orders[SALES])
+
+## Order & Fulfillment Analysis ##
+Orders Count = COUNTROWS(Orders)
+Avg Quantity per Order = AVERAGE(Orders[QUANTITYORDERED])
+
