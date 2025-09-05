@@ -20,3 +20,5 @@ Customer Sales = SUM(Orders[SALES])
 Orders Count = COUNTROWS(Orders)
 Avg Quantity per Order = AVERAGE(Orders[QUANTITYORDERED])
 
+## Order & Fulfillment Analysis ##
+Sales by Country = SUM(Orders[SALES])
