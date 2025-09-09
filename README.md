@@ -51,7 +51,7 @@ The dataset is sourced from [Kaggle's Sample Sales Data](https://www.kaggle.com/
 1. Clone this repository:
 
 ```bash
- git clone https://github.com/yourusername/powerbi-sales-dashboard.git
+ git clone https://github.com/erishbrylle/Power-BI-Dashboard
 ```
 
 
